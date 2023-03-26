@@ -1,0 +1,114 @@
+*body{
+    padding: 0;
+    margin: 0;
+    font-family: "roboto";
+}
+.main_wrapper{
+    height: 1000px;
+}
+.container{
+    width: 1140px;
+    margin: auto
+}
+.backImg img {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.overlayBack {
+    background-color: #82258edb;
+    position: absolute;
+    width: 100%;
+    height: 1004px;
+    top: 1%;
+}
+.heading{
+    position: absolute;
+    top: 5%;
+    left: 32%;
+    font-size: 35px;
+    color: #fff;
+}
+.counter_card {
+    width: 370px;
+    height: 480px;
+    position: absolute;
+    background: #fff;
+    top: 25%;
+    left: 38%;
+    border-radius: 6px;
+    box-shadow: 1px 1px 15px 4px black;
+}
+.counter_icon button {
+    padding: 30px 75px 30px 75px;
+    border-radius: 100px;
+    margin-left: 26%;
+    margin-top: 10%;
+    border: 6px solid rgb(171, 43, 226);
+    background: #fff;
+    font-size: 30px;
+}
+.counter_text h3 {
+    margin-left: 32%;
+    font-weight: 100;
+    color: rgb(15, 71, 212);
+}
+.counter_buttons button {
+    padding: 7px 15px 7px 15px;
+    font-size: 18px;
+    margin-left: 7px;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 8px 4px #9c28af;
+}
+button.startBtn {
+    background: rgb(113, 18, 202);
+    color: #fff;
+    border: 2px solid rgb(11, 9, 21);
+}
+button.pauseBtn {
+    background: rgb(9, 140, 215);
+    color: #fff;
+    border: 2px solid rgb(11, 9, 21);
+}
+button.resetBtn {
+    background: rgb(209, 14, 199);
+    color: #fff;
+    border: 2px solid rgb(11, 9, 21);
+}
+button.napBtn {
+    background: rgb(5, 107, 39);
+    color: #fff;
+    border: 2px solid rgb(11, 9, 21);
+}
+.logoPic img {
+    margin-left: 20px;
+    width: 38px;
+    height: auto;
+    
+}
+.content p {
+    margin-top: 20px;
+    margin-left: 7px;
+    font-size: 15px;
+}
+
+.logoPic {
+    margin-left: 32px;
+}
+.napValue_card{
+    width: 180px;
+    height: 400px;
+    position: absolute;
+    top: 78%;
+    left: 57%;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 1px 1px 15px 4px black;
+}
+.napValue_card h3{
+    margin-left: 10%;
+}
