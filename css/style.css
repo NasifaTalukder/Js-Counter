@@ -37,8 +37,8 @@
     height: 480px;
     position: absolute;
     background: #fff;
-    top: 25%;
-    left: 38%;
+    top: 170px;
+    left: 585px;
     border-radius: 6px;
     box-shadow: 1px 1px 15px 4px black;
 }
@@ -103,8 +103,8 @@ button.napBtn {
     width: 180px;
     height: 400px;
     position: absolute;
-    top: 78%;
-    left: 57%;
+    top: 565px;
+    left: 875px;
     border-radius: 8px;
     background-color: #fff;
     box-shadow: 1px 1px 15px 4px black;
